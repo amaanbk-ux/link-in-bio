@@ -8,6 +8,7 @@
         padding-bottom:40px;
         background-color: #cccccc;
         background-image: url("kelly-zhang-HnJl_eazx2E-unsplash.jpg");
+        
       }
       .banner-image{
         width: 128px;
@@ -16,8 +17,8 @@
         border-radius: 128px;
       }
       .thumbnail{
-        width: 48px;
-        height: 48px;
+        width: 60px;
+        height: 60px;
         border-radius: 48px;
         object-fit: cover;
 
@@ -37,22 +38,41 @@
 
       .social-icons{
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        gap: 125px;
-        max-width: 640px;
-        flex-grow: 1;
-        color: #ef151573;
-        align-items: center;
-      }
+        justify-content: space-around;
       
-    
-    </style>
+        
+      
+      }
+      .link{
+        background-color: #B197FC;
+        display: flex;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: large;
+        border-radius: 48px;
+
+      }
+      .items{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        max-width: 640px;
+        
+      }
+
+      .link a {
+        color: #001e1d;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+       </style>
     <title>Amaan K</title>
     <meta charset="utf-8"
     <meta name="author" content="Ben Purinton">
   </head>
   <body>
+    <div class="items">
     <div class ="banner">
       <img src="headshot.jpeg" alt="headshot"
       class="banner-image">
@@ -77,6 +97,25 @@
       </a>
 
     </div>
+
+    
+        <div class="link">
+          <img
+          src="earth.jpg" class="thumbnail">
+          <a target="_blank" href="https://www.youtube.com/watch?v=fa8k8IQ1_X0"> A.I. ‐ Humanity's Final Invention?--Kurzgesagt</a>  </div>
+
+        <div class="link">
+          <img src="a_typewriter_2535650134.png" class="thumbnail">
+          <a target="_blank"
+            href="https://practicaltypography.com/typography-in-ten-minutes.html">Typography in ten minutes — Matthew Butterick</a>
+       </div>
+
+        <div class="link">
+          <img src="primal-earth.jpg" class="thumbnail">
+          <a target="_blank" href="https://www.youtube.com/watch?v=77omYd0JOeA">The Crazy Engineering of Venice--Primal Space</a>
+        </div>
+    </div>
+
     
   </body>
 
